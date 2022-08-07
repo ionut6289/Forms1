@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+label , select,input,button{
+
+    display: block;
+}
+
+.full{
+    border: 2px solid  rgba(238, 239, 237, 0.56);
+    margin-left: 40%;
+    margin-right: 40%;
+    background-color: rgba(238, 239, 237, 0.56);
+    width: 500px;
+    border-radius: 1%;
+    
+}
+
+header{
+    
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+}
+header h1{
+    margin: 0%;
+}
+
+main{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    
+}
+
+header h1{
+    text-align: center;
+}
+
+.legend{
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    align-items: center;
+    
+    
+}
+
+.legend-number{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgb(89, 195, 89);
+    color: white;
+    margin-right: 10px;
+    
+}
+
+.user {
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
+.user-text{
+    width: 100%;
+    height: 40px;
+    background-color:rgb(223, 248, 240);
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.age{
+    font-size: 20px;
+
+}
+.age-label{
+    margin-bottom: 5px;
+}
+
+.age-under{
+    display: flex;
+    flex-direction: row;
+    font-size: 17px;
+    
+}
+
+.your-profile{
+    margin-top: 10px;
+}
+
+.profile-biography{
+    font-size: 20px;
+}
+
+.prof-biography{
+    width: 95%;
+    height: 60px;
+}
+
+.profile-role{
+    font-size: 20px;
+    
+}
+
+.role-select{
+    display: block;
+    width: 100%;
+    height: 30px;
+    background-color:rgb(223, 248, 240);
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border: none;
+    
+}
+
+.add-biography{
+    width: 100%;
+    background-color: rgb(223, 248, 240);
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border: none;
+}
+
+.profile-interests{
+    font-size: 20px;
+}
+
+.interests{
+    display: flex;
+    flex-direction: row;
+    font-size: 17px;
+}
+
+.interests-label{
+    margin-bottom: 5px;
+}
+
+.sign-up{
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(89, 195, 89);
+    font-size: 17px;
+    color: white;
+    border-radius: 3%;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+

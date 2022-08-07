@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@1&family=Playfair+Display:ital@1&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+<div class="full">
+    <header>
+        <h1>Sign Up</h1>
+    </header>
+
+    <main>
+        <section class="basic-info">
+            <div class="legend">
+                <div class="legend-number">1</div>
+                <p class="legend-description">Your basic info</p>
+            </div>
+
+            <div class="user">
+                <label class="user-label" for="name">Name:</label>
+                <input type="text" name="user-name" id="name" class="user-text">
+            </div>   
+            
+            <div class="user">
+                
+                <label for="email" class="user-label">Email:</label>
+                <input type="email" name="user-email" id="email" class="user-text">
+            </div>   
+            
+            <div class="user">
+                
+                <label for="password" class="user-label">Password:</label>
+                <input type="password" name="user-password" id="password" class="user-text">
+            </div>
+        
+            <div class="age">
+                <label  class="age-label">Age:</label>
+                <div class="age-under">
+                    <input type="radio"  name="user-age">
+                    <label for="under-13">Under 13</label>
+                </div>
+                
+                <div class="age-under">
+                    <input type="radio" name="user-age">
+                    <label for="over-13">13 or Older</label>  
+                </div>  
+            </div>
+        </section>
+
+
+        <section class="your-profile">
+            <div class="legend">
+                <div class="legend-number">2</div>
+                <p class="legend-description">Your profile</p>
+            </div>
+            
+            <div class="profile-biography">
+                <label for="biography">Biography:</label>
+              
+                <textarea name="add-bio" class="add-biography" cols="52" rows="4"></textarea>
+            </div>
+        
+
+            <div class="profile-role">
+                <label>Job role</label>                          
+
+                    <select name="role" class="role-select"> 
+                    <option value="" >-- Choose a job role --</option>
+                    <option value="front-end developer" >Front-End Developer</option>
+                    <option value="back-end developer" >Back-End Developer</option>
+                    <option value="full-stack developer" >Full-Stack Developer</option>
+                </select>
+            </div>
+        
+        
+            <div class="profile-interests">
+                <label class="interests-label">Interests:</label>
+
+                <div class="interests">
+                <input type="checkbox" id="development" name="development" class="checkbox-interests">
+                <label for="development">Development</label>
+                </div>
+
+                <div class="interests">
+                <input type="checkbox" id="design" name="design" class="checkbox-interests">
+                <label for="design">Design</label>
+                </div>
+                
+                <div class="interests">
+                <input type="checkbox" id="business" name="business" class="checkbox-interests">
+                <label for="business">Business</label>
+                </div>
+            </div>
+
+            
+            <button class="sign-up">Sign Up</button>
+            
+        </section>
+    </main>
+</div>
+    
+</body>
+</html>
